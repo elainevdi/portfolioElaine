@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #6717c2 27.26%, #be21b1 96.03%);
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  background-color: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #d809eb;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba#690664(0, 0, 0, 0.25);
+
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: -30px;
+}
+.titulo {
+  margin-left: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  text-align: justify-center;
+  font-size: 20px;
+  background: linear-gradient(236.85deg, #7e14a8 27.26%, #df16c4 96.03%);
+  margin: 25px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 6px 6px 6px #d415cb;
+}
+
+.projeto-titulo {
+  text-align: center;
+  margin: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  text-align: justify-center;
+  font-size: 20px;
+  margin: 25px;
+  border-radius: 15px;
+  padding: 15px;
+  
+}
+
+.contato-titulo {
+  text-align: center;
+  margin: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  text-align: justify-center;
+  font-size: 20px;
+  margin: 25px;
+  border-radius: 15px;
+  padding: 15px;
+  
+}
+
+
+a:link,
+a:visited {
+  background-color: #7545ac;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 6px 6px #cf31d4;
+  border-radius: 5px;
+  margin: 5px;
+  border: solid 3px #f8f4f8;
+}
+
+a:hover,
+a:active {
+  background-color: #aa1b9ef6;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+
+}
+
+footer a {
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.dark {
+ background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+}
+  
+.dark .container {
+  background: #45474b;
+  color: #f6f6f6;
+}
+
+.dark .portfolio {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #FFFFFF;
+   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+}
+
+.dark .projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  color: #1c1c1c;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
+  
